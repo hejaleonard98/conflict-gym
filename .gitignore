@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+.pytest_cache/
+
+# the gym itself: built by gym.py, thrown away by gym.py
+drill/
+
+.env
+.DS_Store
+
+# the gym builds its drill repository here; it is never part of this one
+drill/
